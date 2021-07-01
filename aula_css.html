@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+
+    <style>
+        /*Seletor universal*/
+        * {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: aliceblue;
+        }
+
+        /*Formatação Div container*/
+        .container {
+            width: 370px;
+            height: 280px;
+            padding: 22px;
+            background-color: rgb(150, 124, 19);
+            background-image: url(img/fundo-de-formularios-sobrepostos_23-2148648602.jpg);
+            margin: 105px auto;
+            border-radius: 15px;
+            box-shadow: 5px 8px 20px rgb(0, 0, 0.781);
+        }
+
+        /*Formatação h1*/
+        h1 {
+            margin-top: 8px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        /*Formatação label*/
+        label {
+            font-size: 19px;
+        }
+
+        /*Formatação entradadedados*/
+        .entradadedados {
+            width: 280px;
+            height: 25px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 18px;
+            outline: 0;
+            color: black;
+            cursor: pointer;
+        }
+
+        /*Formatação botao*/
+
+        #btn {
+            color: #fff;
+            margin-top: 20px;
+            font-size: 18px;
+            width: 200px;
+            height: 33px;
+            border-radius: 10px;
+            border: none;
+            background: rgb(0, 125, 221);
+            margin-left: 80px;
+            cursor: pointer;
+        }
+
+        #btn:hover {
+            background: rgb(7, 130, 231);
+            color: yellow;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.767);
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Cadastro</h1>
+
+        <label for="">Nome: </label>
+        <input type="text" name="nome" id="nome" class="entradadedados">
+
+        <label for="">Email: </label>
+        <input type="text" name="email" id="email" class="entradadedados">
+
+        <label for="">Senha: </label>
+        <input type="text" name="senha" id="senha" class="entradadedados">
+
+        <input type="submit" value="Cadastro" id="btn">
+    </div>
+
+</body>
+
+</html>
