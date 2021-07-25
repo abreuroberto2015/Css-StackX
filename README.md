@@ -1,2 +1,1 @@
-# stackx_css
- 
+Módulo de CSS do curso da StackX. 
